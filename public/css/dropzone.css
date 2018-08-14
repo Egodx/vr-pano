@@ -1,0 +1,54 @@
+#dropzone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  border: dashed 3px #9e9e9e;
+  padding: 20px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  max-height: 50%;
+}
+
+#dropzone.dragover {
+  background:#f1f8e9;
+}
+
+img {
+  width: 100%;
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  user-drag: none;
+}
+.drop-message h1, .drop-message h2 {
+  -webkit-font-smoothing: antialiased;
+  font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  font-size: 28px;
+  color: #424242;
+  margin: 0;
+}
+
+.drop-message {
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.drop-message h2 {
+  font-size: 16px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.drop-message img {
+  width: 50%;
+}
+
+dialog {
+  width: 512px !important;
+}
+
+#error {
+  color: red;
+  font-weight: bold;
+}

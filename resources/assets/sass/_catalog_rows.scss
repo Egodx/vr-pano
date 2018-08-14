@@ -1,0 +1,28 @@
+/* Catalog rows media queries. Max - 4 rows on 4K viewport */
+.catalog-rows{
+  margin:0 auto ;
+}
+@media screen and (min-width: 2360px) {
+  .catalog-rows{
+    width:calc(#{4*$card-width} + 1rem);
+    padding-left: .5rem;
+  }
+}
+@media screen and (min-width: 1775px ) and (max-width: 2359px) {
+  .catalog-rows{
+    width:calc(#{3*$card-width} + 1rem);
+    padding-left: .5rem;
+  }
+}
+@media screen and (min-width: 1205px ) and (max-width: 1774px) {
+  .catalog-rows{
+    width:calc(#{2*$card-width} + 1rem);
+    padding-left: .5rem;
+  }
+}
+@media screen and (min-width: 625px ) and (max-width: 1204px) {
+  .catalog-rows{
+    width:calc(#{$card-width} + 1rem);
+    padding-left: .5rem;
+  }
+}

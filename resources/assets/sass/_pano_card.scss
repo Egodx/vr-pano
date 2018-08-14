@@ -1,0 +1,33 @@
+/* Panorama cards in the catalog */
+.pano-card{
+  max-width: $card-width;
+  flex-basis: auto !important;
+
+  &:hover {
+    background-color: #f5f5f5;
+  }
+
+  &:hover img {
+    opacity: .8;
+  }
+   .card-img-top{
+    max-height: 258px;
+    background-color: #ccc;
+  }
+}
+
+.upload-icon{
+  display: block;
+  text-align: center;
+  background-color: #fff;
+  height:257px;
+  padding-top: 44px;
+  color: $info;
+
+  &:hover{
+    color: $info;
+    opacity: .7;
+  }
+}
+
+

@@ -1,0 +1,98 @@
+svg {
+  width: 300px;
+  height: 300px;
+}
+
+#console {
+    background-color: rgb(252, 252, 252);
+}
+
+#lucid-add-button {
+    position: absolute;
+    right: 2%;
+    bottom: 15%;
+    z-index: 6;
+}
+
+#lucid-create-job-dialog {
+    width: 410px;
+}
+
+#lucid-create-feature-dialog {
+    width: 390px;
+}
+
+#lucid-toast {
+    z-index: 10;
+}
+
+#search-results {
+    position: absolute;
+    right: 20px;
+    z-index: 7;
+    min-width: 210px;
+}
+
+#lucid-logs .mdl-data-table {
+    table-layout:fixed;
+}
+
+#lucid-logs td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
+
+.lucid-analysis .mdl-list__item-primary-content {
+    font-weight: bold;
+}
+
+.lucid-logs-stack {
+    text-align: left !important;
+}
+
+/* invert the colours */
+.invert {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-colour-error {
+    color: red;
+}
+
+.text-colour-info {
+    color: lightblue;
+}
+
+.text-colour-warning {
+    color: orange;
+}
+
+.lucid-progress-indicator {
+    position: absolute;
+    z-index: 6;
+}
+
+.lucid-code-preview {
+    width: 970px;
+    height: 800px;
+}
+
+.lucid-code-preview pre {
+    height: 600px;
+    overflow-y: auto;
+}
+
+/*
+ make the element take the fulld
+ width of the parent.
+ */
+.full-width {
+    width: 100%;
+}

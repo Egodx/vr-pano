@@ -1,0 +1,10 @@
+/vendor
+/node_modules
+Homestead.yaml
+Homestead.json
+.env
+composer.lock
+old
+public/uploads/*.jpeg
+public/uploads/source/*.jpeg
+public/uploads/source/*.jpg

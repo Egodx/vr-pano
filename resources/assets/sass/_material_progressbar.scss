@@ -1,0 +1,50 @@
+$regular-height: 10px;
+$smaller-height: 2px;
+
+$angular-material-background: #AAD1F9;
+$angular-material-bar: #106CC8;
+
+$linear-background: #BBDEFB;
+$linear-bar: #1565C0;
+
+.linear-progress{
+background: $linear-background;
+height: $regular-height;
+position: relative;
+margin: 0 auto;
+margin-top: 2rem;
+overflow: hidden;
+animation: start .3s ease-in;
+
+  &.small{
+   height: $smaller-height;
+  }
+
+  .bar{
+    position: absolute;
+    background: $linear-bar;
+    transition: transform .2s linear;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .bar1{
+   animation: progressLinearMovement 2.5s infinite;
+   animation-delay: 0s;
+  }
+
+  .bar2{
+    left: -100%;
+    animation: progressLinearMovement 2.5s infinite;
+    animation-delay: .7s;
+  }
+
+}
+
+@keyframes progressLinearMovement{
+  0%    {left: -100%}
+  50%   {left: 100%}
+  100%  {left: 100%}
+}

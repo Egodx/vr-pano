@@ -1,0 +1,32 @@
+
+// Bootstrap
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+//Variables
+@import "site_variables";
+//Panorama cards
+@import "pano_card";
+//Catalog gird
+@import "catalog_rows";
+//Material progressbar animation
+@import "material_progressbar";
+
+body{
+  background-color: $body-bg;
+}
+
+.alert-vr{
+  display:block;
+}
+.preview-title{
+  margin-top: 2em;
+}
+
+.pagination{
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .alert-vr{
+    display:none;
+  }
+}
